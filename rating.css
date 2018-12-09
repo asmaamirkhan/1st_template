@@ -1,0 +1,27 @@
+  
+  #rating{
+    text-align: center;
+    
+}
+
+#rating input[type="radio"] {
+  display: none;
+}
+
+#rating input[type="radio"] + label {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+#rating label{
+    color: #e6e6ef;
+    display: flex;
+    align-items: baseline;
+    width: 50%;
+}
+
+
+
+#rating input[type="radio"]:checked + label:before {
+  background: #ef8700;
+}

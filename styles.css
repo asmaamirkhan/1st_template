@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+  width: 100%;
+  background: #a0d8c5;
+  display: flex;
+  align-items: center;
+}
+#login{
+    position: absolute;
+    right:10;
+}
+
+#login label{
+    background: #f4f4f9;
+    padding: 5px;
+    border-radius: 5px;
+    color:#8eceb8;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 5px; 
+
+}
+
+#login label:hover{
+    background: #ef8700;
+    color:#f4f4f9;
+    cursor: pointer;
+}
+
+.navbar {
+  overflow: hidden;
+  background: #535957;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: #efefef;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  float: left;
+
+  /*border-right: 5px #FFFFFF solid;*/
+}
+
+.navbar a:hover {
+  background: #efefef;
+  color: #535957;
+}
+
+.navbar .active {
+  background: #efefef;
+  color: #535957;
+}
+
+#title {
+  color: #535957;
+  font-weight: bold;
+  font-size: xx-large;
+  overflow: hidden;
+}
+
+#logo {
+  height: 15%;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 10px;
+  float: left;
+}
+
+
+.content {
+  overflow: hidden;
+}
+
+.images {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+  align-content: center;
+  border-radius: 5%;
+}
+
+div.images:hover {
+  border: 1px solid #777;
+}
+.images img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.gallery {
+  margin: 1% 10% 1% 10%;
+  width: 100%;
+}
+
+.img_desc {
+  padding: 15px;
+  text-align: center;
+  color: #535957;
+}
+
+.activities {
+  margin-left: 12%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#lastAct {
+  font-size: x-large;
+  color: #424466;
+  border-bottom: 1px solid #424466;
+  padding-bottom: 10px;
+  display: inline;
+}
+
+
+#lastActivity{
+    margin-top: 20px;
+}
+.activity {
+  
+  display: flex;
+  align-items: center;
+  width: 85%;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.activity:hover {
+  background: #e6e6ef;
+}
+
+.activity_title {
+  font-weight: bold;
+  font-size: large;
+  color: #575a7f;
+}
+
+.activity_desc {
+  font-size: medium;
+  margin: 5px 0% 10px 75px;
+  color: #535957;
+}
+
+.activity_date {
+  float: left;
+  border: 1px solid #424466;
+  border-radius: 50%;
+  padding: 15px;
+  background: #424466;
+  margin-right: 10px;
+  color: #efefef;
+  font-weight: bold;
+}
+
+.act_abs_date {
+  color: #efefef;
+  background: orange;
+  overflow: hidden;
+  padding: 3px;
+  float: left;
+  border-radius: 5px;
+  margin-left: 55px;
+}
+
+.line {
+  background: #777;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 1px;
+  width: 85%;
+}

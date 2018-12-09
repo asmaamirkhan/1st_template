@@ -1,0 +1,26 @@
+.titles {
+    display: table;
+  font-size: x-large;
+  font-weight: bold;
+  color: #8eceb8;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #8eceb8;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.about{
+    padding-top: 20px;
+    
+}
+
+.about_content{
+    font-size: medium;
+    padding-top: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-bottom: 20px;
+    color: #535957;
+}
