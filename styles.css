@@ -10,26 +10,25 @@
   display: flex;
   align-items: center;
 }
-#login{
-    position: absolute;
-    right:10;
+#login {
+  position: absolute;
+  right: 10;
 }
 
-#login label{
-    background: #f4f4f9;
-    padding: 5px;
-    border-radius: 5px;
-    color:#8eceb8;
-    font-size: large;
-    font-weight: bold;
-    margin-right: 5px; 
-
+#login label {
+  background: #f4f4f9;
+  padding: 5px;
+  border-radius: 5px;
+  color: #8eceb8;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 5px;
 }
 
-#login label:hover{
-    background: #ef8700;
-    color:#f4f4f9;
-    cursor: pointer;
+#login label:hover {
+  background: #ef8700;
+  color: #f4f4f9;
+  cursor: pointer;
 }
 
 .navbar {
@@ -74,7 +73,6 @@
   margin: 10px;
   float: left;
 }
-
 
 .content {
   overflow: hidden;
@@ -123,12 +121,10 @@ div.images:hover {
   display: inline;
 }
 
-
-#lastActivity{
-    margin-top: 20px;
+#lastActivity {
+  margin-top: 20px;
 }
 .activity {
-  
   display: flex;
   align-items: center;
   width: 85%;
@@ -166,7 +162,7 @@ div.images:hover {
 
 .act_abs_date {
   color: #efefef;
-  background: orange;
+  background: #ef8700;
   overflow: hidden;
   padding: 3px;
   float: left;

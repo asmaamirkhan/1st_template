@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  display: flex;
+  background: #434746;
+  height: 100%;
+  width: 100%;
+}
+
+.login_container {
+  border: 3px solid #c9efe2;
+  margin: auto;
+  height: 500px;
+  width: 350px;
+  background: #a4adaa;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5%;
+  align-content: center;
+}
+
+#login_title {
+  font-size: xx-large;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+hr {
+  background: #a0d8c5;
+}
+
+#logo {
+  height: 100px;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 10px;
+  transition: height 1s;
+}
+
+#logo:hover {
+  height: 150px;
+}
+
+.login_container label {
+  color: whitesmoke;
+  font-size: large;
+  margin-top: 5px;
+}
+
+#login_form button {
+  background: #a0d8c5;
+  color: #e6f7f2;
+  font-weight: bold;
+}
+
+form .input-group {
+  margin: 15px 10%;
+  width: 80%;
+}
+
+form .input-group input {
+  color: #71c4a8 !important;
+  font-weight: 600;
+}
+
+form .input-group input:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 10px rgba(160, 216, 197, 0.6);
+}
+
+*::-webkit-input-placeholder {
+  color: #71c4a8 !important;
+  font-weight: 600;
+}
+
+form .fa {
+  color: #71c4a8;
+}
+
+.custom-control-label::after {
+  background-color: #a0d8c5;
+  border-radius: 5px;
+}
